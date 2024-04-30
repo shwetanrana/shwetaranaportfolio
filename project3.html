@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Project User Guide</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  p, ol, ul {
+    margin-bottom: 20px;
+  }
+
+  pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .github-link a:hover {
+            background-color: #555;
+        }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Analyzing Property Trends at South St. Pete Community Area</h1>
+
+  <h2>Introduction</h2>
+
+  <p>Our project aims to conduct a detailed analysis of property trends and values within the South St. Pete Redevelopment Area, specifically within the boundaries of the City of St. Petersburg's Community Redevelopment Area (CRA). We will analyze data spanning from 2015 to 2022, focusing on various property categories, including residential areas, schools, and more. The primary objective is to identify trends in property usage over these years. Additionally, we will provide annual summaries of single-family homes per neighborhood and evaluate growth rates in property usage from 2015 to 2022. This analysis will equip stakeholders with crucial insights for making informed decisions regarding urban development and investment strategies.</p>
+
+  <h2>Methodology</h2>
+
+  <p>We sourced our data from the Property Appraiser/Department of Review for the years 2015 and 2022. Our dataset primarily included property categorizations across various types, such as residential properties and schools. To ensure accuracy and relevance in our analysis, we initiated our process by scrubbing the data. The cleaning steps included:</p>
+
+  <ol>
+    <li>Initial Data Assessment</li>
+    <li>Data Cleansing</li>
+    <li>Data Import Issues</li>
+    <li>Field Relevance Check</li>
+    <li>Data Transformation</li>
+    <li>Data Integration</li>
+    <li>Final Review</li>
+  </ol>
+
+  <p>For the manipulation and analysis of our data, we employed several tools and technologies, including Microsoft Power Query and DAX (Data Analysis Expressions).</p>
+
+
+  <h3>Research Question 1: Is Childs Park a prime candidate for increased investment?</h3>
+  <div class="container">
+    <img src="images/Proj3_1.png" alt="Image Description" class="image">
+  </div>
+
+  <p><strong>Insight:</strong> Childs Park exhibits the highest property counts for both 2015 and 2022, indicating a stable and potentially thriving community. However, the negative growth rate of -2.9% suggests a stagnation or decline in development. To counteract this, investments could be strategically directed towards community development projects and amenities that improve the living standards and attract new residents.</p>
+
+  <!-- Research Question 2 and 3 insights and conclusions -->
+
+
+  <h3>Research Question 2: What does the growth rate in different neighborhoods tell us about potential investment opportunities?</h3>
+  <div class="container">
+    <img src="images/Proj3_2.png" alt="Image Description" class="image">
+  </div>
+
+  <p><strong>Insight:</strong>Despite its relatively low property count, Perry Bayview has shown an impressive growth rate of 21.15%, the highest among all neighborhoods. This surge suggests a neighborhood on the rise, which could significantly benefit from investments aimed at sustaining and accelerating this growth. Investment here could capitalize on the momentum, potentially yielding higher returns as the neighborhood develops.</p>
+
+
+
+  <h3>Research Question 3: How does property usage in 2022 guide our investment strategy?</h3>
+  <div class="container">
+    <img src="images/Proj3_3.png" alt="Image Description" class="image">
+  </div>
+
+  <p><strong>Insight:</strong>The 2022 property usage data for Childs Park indicates a heavy focus on single-family homes with limited community services. The lack of facilities like post offices and the scarcity of public schools underline a gap in essential services that could be filled by focused investments. Addressing these gaps would not only cater to the current population's needs but could also make the neighborhood more attractive for future residents.</p>
+
+
+  <h3>Conclusion</h3>
+  <p>TIn conclusion, the analysis highlights varying investment opportunities across different neighborhoods within the South St. Pete Redevelopment Area. While some areas show promising growth rates, others face challenges such as stagnation or decline. Strategic investments in community development, infrastructure, and essential services are vital to address these issues and promote sustainable urban development. Additionally, ongoing analysis and community engagement are necessary to adapt investment strategies to changing needs and ensure long-term success. By leveraging data-driven insights and community input, stakeholders can make informed decisions that positively impact the region's economic and social well-being</p>
+  <div class="github-link">
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjMzZWQ3ZTUtYjdhYi00Zjc0LWJlYjItMzBiNzUwMzg3ZWFmIiwidCI6IjBlODdiMGZkLWFlZTYtNDg2Ni1hODdkLTUyMTM3ODE5MjJkZiJ9" target="_blank">Link to visualization</a>
+</div>
+
+</div>
+
+</body>
+</html>
